@@ -15,7 +15,7 @@ function test(data) {
     setTimeout(() => {
       data.map((data) =>{
         data.full_name = data.family_name +" "+ data.first_name;
-        return data
+        return data;
       })
     resolve(data);
   },3000);
